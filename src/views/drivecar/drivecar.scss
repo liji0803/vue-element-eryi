@@ -1,0 +1,68 @@
+.flex-row {
+    display: flex;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drivecar-main {
+    box-sizing: border-box;
+}
+
+.t-header {
+    padding: 20px;
+    background-color: #fff;
+}
+
+/deep/ .el-table thead th .cell {
+    padding: 10px;
+}
+
+/deep/ .el-table thead th:last-child .cell {
+    padding-right: 10px;
+}
+
+// 适配surface go --- 1200*800
+@media (max-width: 1200px) {}
+
+.roundState {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #000;
+}
+
+/deep/ .bg-today {
+    .cell {
+        padding: 0 !important;
+        width: 30px;
+        height: 30px;
+        color: #fff;
+        background-color: #F00;
+        border-radius: 100%;
+        line-height: 30px;
+    }
+}
+
+/deep/ .el-table__body tr:hover>td {
+    background-color: initial !important;
+}
+
+/deep/ .el-table .el-table__row td {
+    background: initial !important;
+}
+
+/deep/ .el-table .el-table__row .color1 {
+    background: #4e83e0 !important;
+}
+
+/deep/ .el-table .el-table__row .color2 {
+    background: #cccccc !important;
+}
+
+/deep/ .el-table .el-table__row .color3 {
+    background: #60ceb0 !important;
+}
